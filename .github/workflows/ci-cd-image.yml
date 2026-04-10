@@ -10,7 +10,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: Build Image
-        run: docker build -t imageku .
+        run: docker build -t $IMAGE_NAME .
       - name: List Image
         run: docker images
       - name: Login to GitHub Registry
