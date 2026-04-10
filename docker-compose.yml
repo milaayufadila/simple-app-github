@@ -1,5 +1,5 @@
 services:
   webserver:
-    image: ghcr.io/milaayufadila/nginx-Mila Ayu Fadila
+    image: ghcr.io/milaayufadila/nginx-mila-ayu-fadila
     ports:
       - "8080:80"
